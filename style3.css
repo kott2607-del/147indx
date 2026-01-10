@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fff2df;
+}
+
+.logo {
+    height: 100px;
+}
+
+.top-button {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+}
+
+.top-button button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+header {
+    background: #ff8756;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signin-btn {
+    background: red;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    background: #cc6a42;
+    padding: 30px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;            
+}
+.form input {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.form button {
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
